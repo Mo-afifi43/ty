@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Downloads live under getExternalFilesDir(DIRECTORY_DOWNLOADS). -->
+    <external-files-path name="downloads" path="Download/" />
+    <!-- Fallback when external storage isn't available. -->
+    <files-path name="internal_downloads" path="Download/" />
+</paths>

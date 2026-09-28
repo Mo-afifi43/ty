@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- An open book with a bookmark. Drawn on the 108dp adaptive-icon grid. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- left page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,34 C38,32 46,33 52,37 L52,76 C46,72 38,71 30,73 Z" />
+    <!-- right page -->
+    <path
+        android:fillColor="#E3ECFA"
+        android:pathData="M78,34 C70,32 62,33 56,37 L56,76 C62,72 70,71 78,73 Z" />
+    <!-- spine -->
+    <path
+        android:fillColor="#C7D6F0"
+        android:pathData="M52,37 L56,37 L56,76 L52,76 Z" />
+    <!-- bookmark -->
+    <path
+        android:fillColor="#F2B84B"
+        android:pathData="M62,33 L70,33 L70,52 L66,48 L62,52 Z" />
+</vector>
